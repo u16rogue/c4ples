@@ -1,0 +1,10 @@
+[submodule "deps/lua"]
+	path = deps/lua
+	url = https://github.com/lua/lua.git
+	shallow = true
+	branch = v5.4.0-patch
+[submodule "deps/sol2"]
+	path = deps/sol2
+	url = https://github.com/ThePhD/sol2.git
+	branch = main
+	shallow = true
