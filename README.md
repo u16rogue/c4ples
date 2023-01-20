@@ -30,6 +30,7 @@ project(x)
 add_executable(x "main.cpp")
 c4ples_add_target(
     x
+    ALWAYS # (ALWAYS or ON_CHANGE)
     SOURCE
     "somesource.c4p"
     SCRIPTS
